@@ -56,7 +56,7 @@ public class HotelBeraksi {
                 System.out.println("4. Keluar");
                 System.out.print("Pilih menu : ");
                 int choice = Input.nextInt();
-                //Switch Case untuk Pilihan fitu pada Menu Admin
+                //Switch Case untuk Pilihan fitur pada Menu Admin
                 switch (choice) {
                     case 1:
                         admin.Cekkamar(kamar);
